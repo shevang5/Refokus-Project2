@@ -10,9 +10,9 @@ import LocomotiveScroll from 'locomotive-scroll';
 
 
 function App() {
-
+  console.log("hello world!");
 const locomotiveScroll = new LocomotiveScroll();
-
+  
   return (
     <div className=' w-full overflow-hidden h-full bg-black font-["satoshi"] '  >
       <Navbar  />
