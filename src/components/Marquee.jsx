@@ -10,7 +10,7 @@ function Marquee({ imgUrl, direction }) {
         initial={{ x: direction === "left" ? "0%" : "-100%" }}
         animate={{ x: direction === "left" ? "-100%" : "0%" }}
         transition={{ ease: "linear", duration: 10, repeat: Infinity }}
-        className="w-full gap-20 p-5 tr flex flex-shrink-0"
+        className=" marquee w-full gap-20 p-5 tr flex flex-shrink-0"
       >
         {imgUrl.map((e, i) => (
           <img key={i} src={e} className="w-20" alt="" />

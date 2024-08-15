@@ -62,9 +62,9 @@ function showNhideImgs(scrollval) {
      
 
   return (
-    <div className='w-full h-[90vh] ' >
-     <div className='max-w-screen-lg  mx-auto flex flex-col justify-center items-center relative' >
-          <h1 className='text-white pt-[5%] mt-[30%]  flex flex-col justify-center items-center text-[30vw] font-semibold leading-none rotate-90  leading-0 sm:rotate-0 sm:mt-0   ' >
+    <div className='w-full h-[90%] ' >
+     <div className='max-w-screen-lg   mx-auto flex flex-col justify-center items-center relative' >
+          <h1 className=' work text-white pt-[5%] mt-[20%]  flex flex-col justify-center items-center text-[30vw] font-semibold leading-none rotate-90  leading-0 sm:rotate-0 sm:mt-0   ' >
                <div className='sm:hidden'>work</div>
                <div className='' >work</div>
                <div className='sm:hidden' >work</div>
@@ -75,7 +75,7 @@ function showNhideImgs(scrollval) {
                {images.map((elem, index)=>
                elem.isActive &&
                (
-                    <img className=' h-[30vh] w-30 sm:w-80 sm:h-80 rounded-xl  absolute  sm:top-10 ' style={{ top: elem.top, left: elem.left}} key={index} src={elem.url} />
+                    <img className='imgCard h-[30vh] w-30 sm:w-80 sm:h-80 rounded-xl  absolute  sm:top-10 ' style={{ top: elem.top, left: elem.left}} key={index} src={elem.url} />
               ))}
           </div>
      </div>

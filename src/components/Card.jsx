@@ -3,7 +3,7 @@ import React from 'react'
 function Card({w,start,ug,lets,btn,expl ,hover}) {
   return (
     
-     <div className={` ${w} h-96 p-5 hover:px-7 ease-out transition rounded-xl bg-slate-700  flex flex-col justify-between ${hover} `} >
+     <div id='bCard' className={` ${w} h-96 p-5 hover:px-7 ease-out transition rounded-xl bg-slate-700  flex flex-col justify-between ${hover} `} >
      
      <div>
           <h2 className='text-s' >
@@ -20,7 +20,7 @@ function Card({w,start,ug,lets,btn,expl ,hover}) {
           {start === true? "Start a project": null}
      </h1>
      {btn===true? (
-          <button className='px-5 py-3 border-[1px] w-[10vw] rounded-full border-white' >Contact Us</button>
+          <button className=' contact px-5 py-3 border-[1px] w-[10vw] rounded-full border-white' >Contact Us</button>
      ) : null }
      {expl===true? (
           <p>Explore what drives our team</p>

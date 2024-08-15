@@ -67,15 +67,15 @@ function Products() {
   };
 
   return (
-    <div className="mt-32 w-full h-[15%]  relative">
+    <div className=" h-img mt-32 w-full h-[15%]  relative">
       {proData.map((elem, index) => {
         return <Product key={index} val={elem} mover={mover} count={index} />;
       })}
-      <div className="w-full h-full  pointer-events-none absolute top-0 ">
+      <div className="products w-full h-full  pointer-events-none absolute top-0 ">
         <motion.div
           initial={{ y: pos, x: "70%" }}
           animate={{ y: pos + `%` }}
-          className="w-[25rem]  h-[12.4%] absolute left-[10%]  overflow-hidden -translate-x-[-50%]"
+          className=" mImg w-[25rem]  h-[12.4%] absolute left-[10%]  overflow-hidden -translate-x-[-50%]"
         >
           <motion.div
             animate={{ y: -pos + "%" }}

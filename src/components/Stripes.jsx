@@ -12,7 +12,7 @@ function Stripes() {
           
      ]
   return (
-    <div className='sm:flex hidden mt-[10%] w-full'>         
+    <div className=' stripes flex  mt-[10%] w-full'>         
      {data.map((elem,index)=>(
           <Stripe key={index} val={elem} />
           

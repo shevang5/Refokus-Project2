@@ -1,4 +1,5 @@
 import React from 'react'
+// import Styles from './App.module.css'
 import Navbar from './components/Navbar'
 import Work from './components/Work'
 import Stripes from './components/Stripes'
@@ -14,8 +15,9 @@ function App() {
 const locomotiveScroll = new LocomotiveScroll();
   
   return (
-    <div className=' w-full overflow-hidden h-full bg-black font-["satoshi"] '  >
-      <Navbar  />
+    <div className=' body w-full overflow-hidden h-full bg-black font-["satoshi"] '  >
+      
+      <Navbar/>
       <Work/>
       
 

@@ -25,7 +25,7 @@ function Marquees() {
           "https://cdn.prod.website-files.com/6334198f239547d0f9cd84b3/65b2d27505e3a120466b87aa_singularity.svg",
      ] ]
   return (
-    <div  className='py-[11vw] mt-28 relative overflow-hidden' >
+    <div  className=' marquees py-[11vw] mt-28 relative overflow-hidden' >
       {images.map((item, index) => <Marquee direction={index === 0 ? "left": "right"} key={index} imgUrl={item} />)}
     </div>
   )

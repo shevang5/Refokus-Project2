@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function Navbar() {
   return (
-    <div className="max-w-screen-lg mx-auto p-3  flex gap-10 border-b-[1px]">
+    <div  id='navbar' className="max-w-screen-lg mx-auto p-3  flex gap-10 border-b-[1px]">
       <img
         src="https://cdn.prod.website-files.com/6334198f239547d0f9cd84b3/63349803431f1562dccf1802_refokus%20logo.svg"
         alt=""

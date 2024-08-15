@@ -5,7 +5,7 @@ function Footer() {
      "Privacy Policy","Cookie Policy","Impressum","Term","Webflow Agency"
     ]
   return (
-    <div className='w-full py-5 px-10 text-gray-500 flex justify-between gap-5  text-xs' >
+    <div className=' footer w-full py-5 px-10 text-gray-500 flex justify-between gap-5  text-xs' >
      <div className='flex gap-5' >
           {footer.map((item,i) => <h1 key={i} className='' >{item}</h1>)}
      </div>

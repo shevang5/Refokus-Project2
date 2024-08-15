@@ -1,3 +1,94 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (max-width:700px) {
+     .body{
+          /* background: grey; */
+     }
+     .work{
+          padding: 0;
+          height: 100%;
+     }
+     .paper{
+          /* background: green; */
+          width: 100vw;
+          display: flex;
+          justify-content:center ;
+          align-items: center;
+     }
+     .imgCard{
+          width: 50vw;
+          height: 50vw;
+     }
+     #navbar{
+          display: flex;
+          justify-content: space-between;
+     }
+     .product{
+          width: 100vw;
+          display: flex;
+          flex-direction: column;
+          padding: 5px;
+     }
+     .stripes{
+          margin: 50px 0;
+          width: 100%;
+          /* padding: ; */
+     }
+     .sLogo{
+          /* background: blue; */
+          /* height: 50px; */
+          width: 60em;
+     }
+     .p-h1{
+          display: flex;
+          justify-content: center;
+          font-size: 20px;
+          padding: 0%;
+     }
+     .pDiv{
+          width: 100%;
+     }
+     .hImg{
+          width: 100vw;
+     }
+     .products{
+          /* background: red; */
+          width: 100vw;
+          
+          /* align-items: center; */
+     }
+     .mImg{
+          position: absolute;
+          left: -60%;
+     }
+     .marquees{
+          /* background: blue ; */
+          padding: 0;
+          width: 100%;
+     }
+     .marquee{
+          width: 100vw;
+          overflow: hidden;
+     }
+     .bCards{
+          display: flex;
+          flex-direction: column;
+          width: 100vw;
+          /* background: yellow; */
+     }
+     #bCard{
+          width: 100%;
+          height: 250px;
+     }
+     .contact{
+          width: 110px;
+          padding: 3px 0;
+          margin: 3px;
+     }
+     .footer{
+          display: flex;
+          flex-direction: column;
+     }
+}
